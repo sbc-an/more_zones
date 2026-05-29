@@ -1,0 +1,4 @@
+# indicate whether this mod is installed or not for dynamic compatibility
+# for loadorder-less compatibility, ensure your "@more_zones_installed = 0" is put in a filename that is loaded BEFORE this one
+
+@more_zones_installed = 1
