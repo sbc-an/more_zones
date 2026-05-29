@@ -1,24 +1,28 @@
+## urban support is disabled in vanilla, so disabling these as well
+
 # hybrid energy + mineral
 zone_MZ_urban_energy_minerals = {
 	icon = GFX_MZ_resource_energy_mineral_large
 	base_buildtime = @zone_buildtime
 	potential = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-			is_ai = no						# AI isn't great at handling these
-		}
-		NOR = {
-			is_planet_class = pc_ringworld_habitable
-			is_planet_class = pc_city
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# 	is_ai = no						# AI isn't great at handling these
+		# }
+		# NOR = {
+		# 	is_planet_class = pc_ringworld_habitable
+		# 	is_planet_class = pc_city
+		# }
 	}
 
 	unlock = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# }
 	}
 
 	resources = {
@@ -77,22 +81,24 @@ zone_MZ_urban_minerals_food = {
 	icon = GFX_MZ_resource_minerals_food_large
 	base_buildtime = @zone_buildtime
 	potential = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-			is_ai = no						# AI isn't great at handling these
-		}
-		NOR = {
-			is_planet_class = pc_ringworld_habitable
-			is_planet_class = pc_city
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# 	is_ai = no						# AI isn't great at handling these
+		# }
+		# NOR = {
+		# 	is_planet_class = pc_ringworld_habitable
+		# 	is_planet_class = pc_city
+		# }
 	}
 
 	unlock = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# }
 	}
 
 	resources = {
@@ -151,21 +157,23 @@ zone_MZ_urban_food_energy = {
 	icon = GFX_MZ_resource_food_energy_large
 	base_buildtime = @zone_buildtime
 	potential = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-			is_ai = no						# AI isn't great at handling these
-		}
-		NOT = {
-			is_planet_class = pc_city
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# 	is_ai = no						# AI isn't great at handling these
+		# }
+		# NOT = {
+		# 	is_planet_class = pc_city
+		# }
 	}
 
 	unlock = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# }
 	}
 
 	resources = {
@@ -224,22 +232,24 @@ zone_MZ_urban_basic = {
 	icon = GFX_MZ_resource_basic_large
 	base_buildtime = @zone_buildtime
 	potential = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-			is_ai = no						# AI isn't great at handling these
-		}
-		NOR = {
-			is_planet_class = pc_ringworld_habitable
-			is_planet_class = pc_city
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# 	is_ai = no						# AI isn't great at handling these
+		# }
+		# NOR = {
+		# 	is_planet_class = pc_ringworld_habitable
+		# 	is_planet_class = pc_city
+		# }
 	}
 
 	unlock = { # planet scope
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_wilderness_empire = no
-		}
+		always = no
+		# hidden_trigger = { exists = owner }
+		# owner = {
+		# 	is_wilderness_empire = no
+		# }
 	}
 
 	resources = {
